@@ -1,16 +1,16 @@
 # **Scripts**
 
-This is a repository for all the scripts that where developed during my internship
+This is a repository for all the scripts that where developed during my internship.
 
 ## Contents: 
-- run-crup.sh: This script runs the CRUP software through all of the samples of a certain type run and type of sample. Type run and type sample are pased via arguments.\ 
-For example:\ 
+- run-crup.sh: This script runs the CRUP software through all of the samples of a certain type run and type of sample. Type run and type sample are pased via arguments.<br/> 
+For example:<br/> 
 `bash run-crup.sh Primary_cells Single_ended`
 
 
 
-- filehandling.sh: This script prepares the data for running CRUP. It performs merges and indexes the files. Type run, type sample and sample name are passed via arguments.\
-For example:\
+- filehandling.sh: This script prepares the data for running CRUP. It performs merges and indexes the files. Type run, type sample and sample name are passed via arguments.<br/>
+For example:<br/>
 `bash filehandling.sh Single_ended Cell_lines HCT116`
 
 *The arguments passed to all scripts have to be written exactly the same as in the folders containing the data*

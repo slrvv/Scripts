@@ -1,6 +1,6 @@
 # **Scripts**
 
-## This is a repository for all the scripts that where developed during my internship
+This is a repository for all the scripts that where developed during my internship
 
 ## Contents: 
 - run-crup.sh: This script runs the CRUP software through all of the samples of a certain type run and type of sample. Type run and type sample are pased via arguments.\ 

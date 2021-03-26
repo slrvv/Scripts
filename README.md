@@ -11,10 +11,12 @@ For example:<br/>
 
 - filehandling.sh: This script prepares the data for running CRUP. It performs merges and indexes the files. Type run and type sample are passed via arguments.<br/>
 For example:<br/>
+`bash filehandling.sh Pair_ended Cell_lines`
 
-`bash filehandling.sh Single_ended Cell_lines`
 
-- downloader.py: Calls encode_downloader.py to download the files and saves themand classifies them. The full path directory to the CSV file with the experimetns  to download and the directory where you want to store the downloaded experiments are passed via arguments.<\br>
+
+
+- downloader.py: Calls encode_downloader.py to download the files and saves themand classifies them. The full path directory to the CSV file with the experimetns  to download and the directory where you want to store the downloaded experiments are passed via arguments.<br/>
 `python3 downloader.py /full/path/to/the/file.csv path/to/save/the/experiments/`
 
 - psql: This is not a script that can be run as is but an example of the commands that were used to make the files of the grouped data to download that is then used by downloader.py.

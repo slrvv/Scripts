@@ -1,0 +1,11 @@
+pathways_formatted_flat	Freq
+Notch signaling pathway	58
+Regulation of nuclear SMAD2/3 signaling	54
+AndrogenReceptor	52
+C-MYB transcription factor network	52
+Glucocorticoid receptor regulatory network	52
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	51
+Regulation of Androgen receptor activity	51
+Pyrimidine metabolism	50
+AP-1 transcription factor network	45
+p53 pathway	45

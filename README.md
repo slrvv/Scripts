@@ -2,9 +2,11 @@
 
 This is a repository for all the scripts that where developed during my internship.
 
-## Contents: 
-- run-crup.sh: This script runs the CRUP software through all of the samples of a certain type run and type of sample. Type run and type sample are pased via arguments.<br/> 
-For example:<br/> 
+## Contents:
+
+### encode_downloading/
+- run-crup.sh: This script runs the CRUP software through all of the samples of a certain type run and type of sample. Type run and type sample are pased via arguments.<br/>
+For example:<br/>
 `bash run-crup.sh Single_ended Primary_cells`
 
 
@@ -23,7 +25,7 @@ For example:<br/>
 
 *The arguments passed to the filehandling.sh and run-crup.sh scripts have to be written exactly the same as in the folders containing the data*
 
-**CRUP Software repository** 
+**CRUP Software repository**
 
 https://github.com/VerenaHeinrich/CRUP
 
@@ -31,9 +33,11 @@ https://github.com/VerenaHeinrich/CRUP
 
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1860-7
 
- 
+### Clustering/
+Scripts in this folder were used to do PCA and CA. The CA script is not the option we finally used, we did it using APL shiny app.
 
+### Enhancer_enrichment_analysis/
+Scripts in this folder were used to do the enrichment analysis. Some plots and result tables are also given.
 
-
-
-
+### misc/
+Miscellaneous scripts that were used to make distributions of enhancer sizes, the tables for CA etc.
